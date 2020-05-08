@@ -1,0 +1,114 @@
+[root@ip-172-31-3-92 gittest1]# git rm --help
+[root@ip-172-31-3-92 gittest1]# git rm --cached -r .
+rm '23'
+rm 'README.md'
+rm 'history1'
+rm 'test2'
+rm 'test22'
+rm 'test3'
+rm 'test4'
+rm 'test5'
+rm 'test6'
+[root@ip-172-31-3-92 gittest1]# git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        deleted:    README.md
+        deleted:    test2
+        deleted:    test22
+        deleted:    test3
+        deleted:    test4
+        deleted:    test5
+        deleted:    test6
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        23
+        README.md
+        history1
+        test2
+        test22
+        test3
+        test4
+        test5
+        test6
+
+[root@ip-172-31-3-92 gittest1]# git add .
+[root@ip-172-31-3-92 gittest1]# git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   23
+        new file:   history1
+
+[root@ip-172-31-3-92 gittest1]# git rm --cached -r 23
+rm '23'
+[root@ip-172-31-3-92 gittest1]# git rm --cached -r history1
+rm 'history1'
+[root@ip-172-31-3-92 gittest1]# git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        23
+        history1
+
+nothing added to commit but untracked files present (use "git add" to track)
+[root@ip-172-31-3-92 gittest1]# git add .
+[root@ip-172-31-3-92 gittest1]# git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   23
+        new file:   history1
+
+[root@ip-172-31-3-92 gittest1]# git push -u origin master
+Username for 'https://github.com': suzkiran
+Password for 'https://suzkiran@github.com':
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+[root@ip-172-31-3-92 gittest1]# git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   23
+        new file:   history1
+
+[root@ip-172-31-3-92 gittest1]# git commit -m "commands"
+[master 409f41b] commands
+ 2 files changed, 148 insertions(+)
+ create mode 100644 23
+ create mode 100644 history1
+[root@ip-172-31-3-92 gittest1]# git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[root@ip-172-31-3-92 gittest1]# git push -u origin master
+Username for 'https://github.com': suzkiran
+Password for 'https://suzkiran@github.com':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 831 bytes | 831.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/suzkiran/gittest1.git
+   805d4ac..409f41b  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.

@@ -1,0 +1,74 @@
+[root@ip-172-31-3-92 gittest1]# history
+    1  git
+    2  git status
+    3  yum install git
+    4  git status
+    5  git
+    6  mkdir Test
+    7  pwd
+    8  cd Test
+    9  ls-l
+   10  ls -l
+   11  yum install git
+   12  rpm -qa | grep git
+   13  ls
+   14  ls -l
+   15  cd Test
+   16  ls -l
+   17  touch suzy1
+   18  ls
+   19  git status
+   20  git init
+   21  git status
+   22  git add suzy1
+   23  git status
+   24  git commit -m "ABCD"
+   25  git status
+   26  git push -u origin master
+   27  git config --global user.name "suzkiran"
+   28  git status
+   29  git push -u origin master
+   30  git config --global user.email "ch.sujathakiran@gmail.com"
+   31  git status
+   32  git push -u origin master
+   33  ls -altr
+   34  cd .git
+   35  ls -latr
+   36  cat config
+   37  cd info
+   38  ls -l
+   39  oslevel
+   40  uname -a
+   41  git push -u origin master
+   42  git --version
+   43  git push -u .
+   44  git push -u . .
+   45  git remote --set url origin "https://github.com/suzkiran/"
+   46  git remote set-url add  "https://github.com/suzkiran/"
+   47  git remote set-url --add "https://github.com/suzkiran/"
+   48  git remote set-url --add "suzy" "https://github.com/suzkiran/"
+   49  git remote set-url --add "suzkiran" "https://github.com/suzkiran/"
+   50  git remote set-url origin "https://github.com/suzkiran/"
+   51  git remote --set-url origin "https://github.com/suzkiran/"
+   52  git clone "https://github.com/suzkiran/"
+   53  git clone "https://github.com/suzkiran/gittest1.git"
+   54  ls -l
+   55  cd gittest1
+   56  ls -l
+   57  git push -u origin master
+   58  git status
+   59  touch test2
+   60  ls -l
+   61  touch test22
+   62  ls -l
+   63  git status
+   64  git add test22
+   65  git status
+   66  git commit -m "Devops"
+   67  git status
+   68  git push -u origin master
+   69  git status
+   70  touch 23
+   71  git status
+   72  history
+

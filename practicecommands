@@ -1,0 +1,86 @@
+[root@ip-172-31-9-249 gittest1]# history
+    1  ls -l
+    2  df -h
+    3  mkdir devops
+    4  cd devops
+    5  ls -l
+    6  touch suzyinstance2
+    7  git status
+    8  yum install git
+    9  rpm -qa |grep GIT
+   10  rpm -qa |grep git
+   11  git status
+   12  ls -l
+   13  find / -name git
+   14  git init
+   15  git status
+   16  git add .
+   17  git status
+   18  git commit -m "Instance2 creation for practice"
+   19  git config --global user.name "suzkiran"
+   20  git status
+   21  git config --global user.email "ch.sujathakiran@gmail.com"
+   22  git status
+   23  git push -u origin master
+   24  git clone https://github.com/suzkiran/gittest1.git
+   25  git push -u origin master
+   26  ls -l
+   27  cd gittest1
+   28  ls -l
+   29  git push -u origin master
+   30  ls -l
+   31  touch suzyinstance2
+   32  git status
+   33  git add .
+   34  git commit -m "instance 2 practice"
+   35  git status
+   36  git push -u origin master
+   37  ls -l
+   38  git branch -a
+   39  touch suzy7
+   40  touch suzy8
+   41  git add >
+   42  git add .
+   43  git status
+   44  git rm --cached suzy7
+   45  git rm --cached suzy8
+   46  git status
+   47  git add .
+   48  git status
+   49  git rm --cached suzy7
+   50  git rm --cached suzy8
+   51  git status
+   52  git branch -a
+   53  git branch insta2
+   54  git branch -a
+   55  git checkout insta2
+   56  git status
+   57  git add .
+   58  git status
+   59  git commit -m "inst2 branch commit"
+   60  git status
+   61  git push origin master
+   62  git status
+   63  git merge insta2
+   64  git status
+   65  git branch -a
+   66  git checkout master
+   67  git merge insta2
+   68  git status
+   69  git push origin master
+   70  ls -l
+   71  ls l
+   72  ls -l
+   73  touch suzy9
+   74  git status
+   75  git branch hotfix3
+   76  git branch -a
+   77  git checkout hotfix3
+   78  git status
+   79  git add>
+   80  git add .
+   81  git commit -m "branch practice"
+   82  git status
+   83  git push -u origin hotfix3
+   84  history
+

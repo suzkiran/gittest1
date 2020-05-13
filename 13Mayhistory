@@ -1,0 +1,273 @@
+[root@ip-172-31-9-249 temp2]# history
+    1  ls -l
+    2  df -h
+    3  mkdir devops
+    4  cd devops
+    5  ls -l
+    6  touch suzyinstance2
+    7  git status
+    8  yum install git
+    9  rpm -qa |grep GIT
+   10  rpm -qa |grep git
+   11  git status
+   12  ls -l
+   13  find / -name git
+   14  git init
+   15  git status
+   16  git add .
+   17  git status
+   18  git commit -m "Instance2 creation for practice"
+   19  git config --global user.name "suzkiran"
+   20  git status
+   21  git config --global user.email "ch.sujathakiran@gmail.com"
+   22  git status
+   23  git push -u origin master
+   24  git clone https://github.com/suzkiran/gittest1.git
+   25  git push -u origin master
+   26  ls -l
+   27  cd gittest1
+   28  ls -l
+   29  git push -u origin master
+   30  ls -l
+   31  touch suzyinstance2
+   32  git status
+   33  git add .
+   34  git commit -m "instance 2 practice"
+   35  git status
+   36  git push -u origin master
+   37  ls -l
+   38  git branch -a
+   39  touch suzy7
+   40  touch suzy8
+   41  git add >
+   42  git add .
+   43  git status
+   44  git rm --cached suzy7
+   45  git rm --cached suzy8
+   46  git status
+   47  git add .
+   48  git status
+   49  git rm --cached suzy7
+   50  git rm --cached suzy8
+   51  git status
+   52  git branch -a
+   53  git branch insta2
+   54  git branch -a
+   55  git checkout insta2
+   56  git status
+   57  git add .
+   58  git status
+   59  git commit -m "inst2 branch commit"
+   60  git status
+   61  git push origin master
+   62  git status
+   63  git merge insta2
+   64  git status
+   65  git branch -a
+   66  git checkout master
+   67  git merge insta2
+   68  git status
+   69  git push origin master
+   70  ls -l
+   71  ls l
+   72  ls -l
+   73  touch suzy9
+   74  git status
+   75  git branch hotfix3
+   76  git branch -a
+   77  git checkout hotfix3
+   78  git status
+   79  git add>
+   80  git add .
+   81  git commit -m "branch practice"
+   82  git status
+   83  git push -u origin hotfix3
+   84  history
+   85  vi practicecommands
+   86  git status
+   87  git add .
+   88  git commit -m "commands till now"
+   89  git push -u origin master
+   90  git status
+   91  git checkout master
+   92  git branch -a
+   93  git merge hotfix3
+   94  git branch -a
+   95  git status
+   96  git push -u origin master
+   97  git status
+   98  exit
+   99  ls -l
+  100  cd devops
+  101  git status
+  102  git clone https://github.com/suzkiran/gittest1.git
+  103  mkdir devops2
+  104  git status
+  105  cd /
+  106  mkdir devops2
+  107  cd devops2
+  108  ls -l
+  109  git status
+  110  git init
+  111  git status
+  112  cd ..
+  113  mkdir devops3
+  114  cd devops3
+  115  git status
+  116  git clone [root@ip-172-31-9-249 devops2]# git status
+  117  fatal: not a git repository (or any of the parent directories): .git
+  118  clear
+  119  git status
+  120  git clone https://github.com/suzkiran/gittest1.git
+  121  ls -l
+  122  cd gittest1
+  123  ls -l
+  124  git log
+  125  git diff
+  126  git log
+  127  git pull
+  128  ls -l
+  129  cat suzy11
+  130  git status
+  131  git diff
+  132  touch suzy12
+  133  rm suzy12
+  134  ls -l
+  135  git pull
+  136  ls -l
+  137  git status
+  138  touch suzy13
+  139  git add .
+  140  git commit -m "hello world again 3"
+  141  git status
+  142  git pull
+  143  ls -l
+  144  git status
+  145  git push -u origin master
+  146  git status
+  147  touch suzy16
+  148  git add .
+  149  git commit -m "hello world again 7 "
+  150  git status
+  151  git pull
+  152  git status
+  153  git log
+  154  git push -u "commit all merge conflicts"
+  155  git push -u origin master
+  156  git status
+  157  history
+  158  vi gitpullcommands
+  159  git add .
+  160  git commit -m "upto todays commands pull and merge conflict"
+  161  git push -u origin master
+  162  ls -l
+  163  pwd
+  164  ls-l
+  165  ls -l
+  166  touch xyz1
+  167  git status
+  168  vi xyz1
+  169  git init
+  170  git status
+  171  mkdir temp
+  172  touch xyz1
+  173  vi xyz1
+  174  cp xyz1 /temp/
+  175  cp -r xyz1 temp1
+  176  cd temp
+  177  vi xyz2
+  178  pwd
+  179  ls -l
+  180  git status
+  181  clear
+  182  cd ..
+  183  mkdir temp2
+  184  cd temp2
+  185  vi xyz3
+  186  pwd
+  187  ls -l
+  188  git status
+  189  df -h
+  190  git init
+  191  git status
+  192  git add .
+  193  git commit -m "first commit Apple"
+  194  git status
+  195  vi xyz1
+  196  ls -l
+  197  vi xyz3
+  198  git status
+  199  git add .
+  200  git commit -m "Second commit Mango"
+  201  git log
+  202  vi xyz3
+  203  git add .
+  204  git commit -m "Third Commit Orange"
+  205  git status
+  206  vi xyz3
+  207  git add .
+  208  git commit -m "Fourth commit Grapes"
+  209  vi xyz3
+  210  git status
+  211  vi xyz3
+  212  git log
+  213  vi xyz3
+  214  git status
+  215  cat xyz3
+  216  git status
+  217  git checkout xyz3
+  218  git status
+  219  cat xyz3
+  220  vi xyz3
+  221  git status
+  222  git add .
+  223  git status
+  224  git reset head xyz3
+  225  git reset HEAD xyz3
+  226  git status
+  227  git add xyz3
+  228  git status
+  229  git commit -m "fifth Commit Banana"
+  230  git status
+  231  git log
+  232  git revert 1b46d433a73166de52257a28728de329f833863c
+  233  git log
+  234  vi xyz3
+  235  git revert 4c1ff485b3405b358fdf6faf550a495f6fb7bdcf
+  236  git log
+  237  vi xyz3
+  238  git log
+  239  ls -l
+  240  git revert f329ef88a99c84a0ad48c9a5043ac7063fe6be96
+  241  git log
+  242  git status
+  243  vi xyz3
+  244  git status
+  245  git log
+  246  git add xyz3
+  247  git commit -m "sixth commit potato"
+  248  git log
+  249  git revert -n d2c830142fc24f4c70e034f30a4f99fc61f24bf0
+  250  git status
+  251  vi xyz3
+  252  git status
+  253  git add xyz3
+  254  vi xyz3
+  255  git log
+  256  git status
+  257  git reset HEAD xyz3
+  258  git log
+  259  git status
+  260  git checkout xyz3
+  261  git status
+  262  vi xyz3
+  263  git log
+  264  history
+  265  git log
+  266  git reset 1b46d433a73166de52257a28728de329f833863c
+  267  vi xyz
+  268  vi xyz3
+  269  git log
+  270  vi xyz3
+  271  history
+
